@@ -1,0 +1,47 @@
+.main-wrapper {
+  opacity: 0;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.loading-animation-split {
+  line-height: 1.1;
+}
+
+.overflow-hidden:nth-child(n + 1) {
+  margin-top: -30rem;
+}
+
+.body.after-hero-body .after--hero--bg-img {
+  opacity: 1;
+}
+
+.body.after-hero-body .home--hero-img-new-4 {
+  bottom: 184rem;
+  opacity: 0;
+}
+
+.body.after-hero-body .home--hero-img-new-5 {
+  bottom: 25rem;
+  opacity: 1;
+}
+
+.body.after-hero-body .home--hero-img-new-6 {
+  bottom: 123rem;
+  opacity: 1;
+}
+
+.body.after-hero-body .home--hero-img-new-7 {
+  bottom: 209rem;
+  opacity: 1;
+}
+
+.body.after-hero-body .video_element.is--home-hero-new-2 {
+  opacity: 1;
+}
+
+.body.after-hero-body .after--hero--bg-img.is--opacity {
+  opacity: 0.3;
+}
