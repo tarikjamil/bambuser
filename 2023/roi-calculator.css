@@ -1,0 +1,114 @@
+.ng-scope {
+  font-size: 1em;
+  color: black;
+}
+
+.calculoid-info.ng-scope h1 {
+  display: none;
+}
+
+.newCalcDesign .calculoid-background {
+  padding: 0 !important;
+}
+
+.calcNewInputDesign .calculoid-box .calculoid-text-field {
+  border: 0px solid #e6e6e6 !important;
+  width: 100% !important;
+}
+
+.calculoid-text-field {
+  display: flex;
+  height: auto !important;
+}
+
+.calculoid-fields ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16rem;
+  padding: 0;
+  margin: 0;
+}
+
+.calculoid-fields li {
+  margin: 0px !important;
+  padding: 0px !important;
+  height: auto !important;
+}
+
+.calculoid-fields button {
+  font-size: 16rem !important;
+  background-color: #6b00de !important;
+  width: 100% !important;
+  height: 54rem !important;
+  border-radius: 500rem !important;
+  font-weight: 500 !important;
+  color: white;
+}
+
+.calculoid-fields h2,
+.calculoid-fields p {
+  font-size: 16rem !important;
+  line-height: calc(22 / 16rem) !important;
+  margin-bottom: 8rem !important;
+  font-weight: 500 !important;
+  color: black !important;
+  font-family: inherit !important;
+}
+
+.calculoid-fields input,
+.calculoid-fields select {
+  height: 48rem !important;
+  font-size: 16rem !important;
+  border-width: 2px !important;
+  border-color: black !important;
+  border-style: solid !important;
+  border-radius: 8rem !important;
+  color: black !important;
+  width: 100% !important;
+  min-width: 100%;
+  padding-left: 16rem;
+  padding-right: 16rem;
+}
+
+:not(.newCalcDesign) .calculoid-field-hint {
+  font-size: 16rem !important;
+}
+
+.gridster-mobile
+  .calcNewInputDesign
+  .calculoid-slider-field
+  .slider-input-wrapper {
+  margin: 0 !important;
+  width: 100% !important;
+  min-width: 100% !important;
+}
+
+.gridster-mobile
+  .calcNewInputDesign
+  .calculoid-slider-field
+  .slider-input-wrapper
+  input {
+  margin: 0 !important;
+  width: 100% !important;
+  min-width: 100% !important;
+}
+
+.calculoid-color-scheme-dark-blue
+  .calcNewInputDesign.calculoid-field-item
+  .rzslider
+  .rz-pointer,
+.calculoid-color-scheme-default
+  .calcNewInputDesign.calculoid-field-item
+  .rzslider
+  .rz-pointer {
+  background: #6b00de !important ;
+}
+
+.calculoid-input-block {
+  width: 100% !important;
+  min-width: 100% !important;
+}
+
+.tooltip.ng-binding {
+  display: none;
+}
