@@ -1,95 +1,26 @@
-select.hs-input {
-  background-image: url(https://uploads-ssl.webflow.com/5de0e7623719a14060d5e857/60dc6ea4df79dbdc6cd73057_Icon.svg);
-  background-size: calc(24em / 14);
-  background-position-x: 97%;
-  background-position-y: center;
-  background-repeat: no-repeat;
-  -webkit-appearance: none;
-}
-
-.hs-fieldtype-intl-phone.hs-input .hs-input {
-  font-size: 1em;
-}
-
-.hs-form-checkbox-display input {
-  width: auto !important;
-}
-
-.submitted-message {
-  font-size: 16em;
-}
-
-/* newseltter footer settings */
-.newsletter_form a {
-  color: white;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.newsletter_form {
-  color: white;
-}
-
-.newsletter_form .hs-input {
-  background-color: transparent;
-  border-radius: 0px;
-  border-top-style: none;
-  border-left-style: none;
-  border-right-style: none;
-  font-size: 14em;
-  width: 100%;
-  margin-bottom: calc(16em / 14);
-  height: 3.4285714285714284em;
-}
-
-.newsletter_form label {
-  position: static;
-  left: 16px;
-  top: 1.1428571428571428em;
-  font-family: Neue Haas Grotesk text;
-  color: #747474;
-  font-size: 12em;
-  line-height: 1.2857142857142858;
-  font-weight: 500;
-  text-transform: none;
-  margin-bottom: calc(4em / 12);
-}
-
-.newsletter_form p {
-  font-size: 12em;
-  background-color: transparent !important;
-  color: white;
-}
-
-.newsletter_form ul {
-  font-size: calc(12em / 16);
-  padding-left: 0px;
-  margin-bottom: 0px;
-}
-
-.newsletter_form .hs-error-msg {
-  font-size: 14em;
-  color: #e12147;
-  margin-top: calc(-12em / 14);
-  font-weight: 400 !important;
-}
-
-.newsletter_form .submitted-message {
-  font-size: 2em;
-}
-
-.newsletter_form .hs-button.primary.large {
-  position: absolute;
-  font-size: 16em;
-  padding-right: 0em;
-  padding-top: 0.6666666666666666em;
-  padding-bottom: 0.6666666666666666em;
-  padding-left: 1.3333333333333333em;
-  top: 3.2em;
-  right: 0.2em;
-  border-top-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
-  border-right-style: none;
-  background-color: transparent !important;
-}
+.main-wrapper {
+    opacity: 0;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .loading-animation-split {
+    line-height: 1.1;
+  }
+  
+  .overflow-hidden:nth-child(n + 1) {
+    margin-top: -30rem;
+  }
+  
+  @media (max-width: 991px) {
+    .overflow-hidden:nth-child(n + 1) {
+      margin-top: -10rem;
+    }
+  
+    .navbar--dropdown-list {
+      height: 0px;
+    }
+  }
+  
