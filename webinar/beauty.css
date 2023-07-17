@@ -35,9 +35,10 @@
 }
 
 .is--hubspot-form p {
-  font-size: 12em;
+  font-size: 12rem;
   background-color: transparent !important;
-  color: white;
+  color: black;
+  text-align: center;
 }
 
 .is--hubspot-form ul {
