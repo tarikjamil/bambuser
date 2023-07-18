@@ -59,18 +59,21 @@
 }
 
 .is--hubspot-form .hs-button.primary.large {
-  position: absolute;
+  position: static;
   font-size: 16em;
   padding-right: 0em;
-  padding-top: 0.6666666666666666em;
-  padding-bottom: 0.6666666666666666em;
-  padding-left: 1.3333333333333333em;
-  top: 19rem;
-  right: 0rem;
-  border-top-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
-  border-right-style: none;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  width: 100%;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 200rem;
   background-color: transparent !important;
   color: #2a2a2a;
+}
+
+.is--hubspot-form .hs-button.primary.large:hover {
+  background-color: #2a2a2a !important;
+  color: white;
 }
