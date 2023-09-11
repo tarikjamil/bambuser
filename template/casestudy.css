@@ -13,3 +13,127 @@
 .body.is--results .video_element.is--3 {
   opacity: 1;
 }
+
+.is--download .article-video-bg {
+  padding: 0rem 0rem;
+  background-color: #000000;
+}
+
+.is--download .article-stat-flex {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.is--download input {
+  font-size: 16em;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  padding-left: 0px;
+  margin-bottom: calc(16em / 14);
+  width: 100% !important;
+  height: 3.4285714285714284em;
+  padding-top: 0.7142857142857143em;
+  padding-right: 1.1428571428571428em;
+  padding-bottom: 0.7142857142857143em;
+  line-height: 1.4285714285714286;
+  font-weight: 500;
+  font-family: "Neue Haas Grotesk Display", sans-serif;
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
+.is--download .hs-button.primary.large {
+  background-color: transparent;
+  border-color: white;
+  border-width: 1px;
+  font-size: 12em;
+  line-height: 2;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-top-left-radius: 0.3333333333333333em;
+  border-top-right-radius: 0.3333333333333333em;
+  border-bottom-left-radius: 0.3333333333333333em;
+  border-bottom-right-radius: 0.3333333333333333em;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+  font-family: "Neue Haas Grotesk Display", sans-serif;
+  padding-top: 0.6666666666666666em;
+  padding-right: 1.3333333333333333em;
+  padding-bottom: 0.6666666666666666em;
+  padding-left: 1.3333333333333333em;
+  width: auto !important;
+}
+
+.is--download ul {
+  font-size: calc(12em / 16);
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.is--download .hs-form-field li {
+  font-size: 1em;
+  margin-bottom: 16em;
+}
+
+.hs-richtext p {
+  font-size: 12em;
+  color: #747474;
+  line-height: calc(16 / 12);
+  margin-bottom: calc(16em / 12);
+}
+
+.hs-richtext a {
+  color: white !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hs-error-msg {
+  opacity: 100% !important;
+  position: static !important;
+  font-size: 14em !important;
+  color: #e12147 !important;
+  font-weight: 400 !important;
+}
+
+.is--download .hs-input:focus {
+  outline: 1px !important;
+  outline-color: #000;
+}
+
+.is--download .hs-form label {
+  opacity: 0%;
+  position: absolute;
+}
+
+.is--download form {
+  max-width: 400rem !important;
+}
+
+.is--download .actions {
+  display: inline;
+}
+
+.is--download + .article-hero-img {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  height: 100vh;
+}
+
+.is--download .stat-el h2 {
+  font-size: 120rem;
+}
