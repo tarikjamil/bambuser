@@ -1,16 +1,16 @@
-.video_element.is--2,
-.video_element.is--3 {
+.video_element.is--casestudy.is--2,
+.video_element.is--casestudy.is--3 {
   opacity: 0;
   transition-property: opacity;
   transition-duration: 200ms;
   transition-timing-function: ease;
 }
 
-.body.is--solutions .video_element.is--2 {
+.body.is--solutions .video_element.is--casestudy.is--2 {
   opacity: 1;
 }
 
-.body.is--results .video_element.is--3 {
+.body.is--results .video_element.is--casestudy.is--3 {
   opacity: 1;
 }
 
