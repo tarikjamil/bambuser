@@ -6,3 +6,11 @@
   line-height: calc(20 / 14rem);
   margin-bottom: 11rem;
 }
+
+.is--demo-hero .hs-input {
+  height: 48rem;
+  padding: 4rem 16rem;
+  border-radius: 8rem;
+  border: 1px solid #999;
+  background: #f6f8fa;
+}
