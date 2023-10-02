@@ -18,6 +18,10 @@
   line-height: 140%;
 }
 
+.is--demo-hero .hs-richtext {
+  margin-bottom: 36rem;
+}
+
 .is--demo-hero p {
   color: #000;
   font-size: 12rem;
@@ -29,4 +33,20 @@
 .is--demo-hero .hs-richtext a {
   font-weight: 400;
   text-decoration: underline;
+}
+
+.is--demo-hero .hs-button.primary.large {
+  display: flex;
+  padding: 13rem 26rem;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10rem;
+  border-radius: 58rem;
+  background: #6b00de;
+  color: #fff;
+  text-align: center;
+  font-size: 15rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 171.429% */
 }
