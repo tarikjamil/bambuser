@@ -22,7 +22,7 @@
   margin-bottom: 36rem;
 }
 
-.is--demo-hero p {
+.is--demo-hero .hs-richtext p {
   color: #000;
   font-size: 12rem;
   font-style: normal;
@@ -51,4 +51,5 @@
   font-weight: 500;
   line-height: 170%; /* 171.429% */
   border-width: 0px;
+  text-transform: none;
 }
