@@ -151,38 +151,6 @@ function slider2() {
 }
 slider2();
 
-// slider
-document.addEventListener("DOMContentLoaded", function () {
-  let splide = new Splide(".is--home-hero-slider", {
-    type: "loop",
-    perPage: 1,
-    perMove: 1,
-    autoplay: true,
-    interval: 3000,
-    speed: 500,
-    drag: false,
-    gap: "0rem",
-    breakpoints: {
-      991: {
-        // Tablet
-        perPage: 1,
-        arrows: false,
-      },
-      767: {
-        // Mobile Landscape
-        perPage: 1,
-        arrows: false,
-      },
-      479: {
-        // Mobile Portrait
-        perPage: 1,
-        arrows: false,
-      },
-    },
-  });
-  splide.mount();
-});
-
 // PAGE COLOR POWER-UP
 window.addEventListener("DOMContentLoaded", (event) => {
   // attribute value checker
