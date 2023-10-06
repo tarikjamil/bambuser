@@ -153,7 +153,7 @@ slider2();
 
 // slider
 document.addEventListener("DOMContentLoaded", function () {
-  let splide = new Splide(".is--home-hero", {
+  let splide = new Splide(".is--home-hero-slider", {
     type: "loop",
     perPage: 1,
     perMove: 1,
