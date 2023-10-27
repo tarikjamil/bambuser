@@ -85,6 +85,7 @@ html.w-editor .main-wrapper {
   padding-left: 24rem;
   padding-right: 24rem;
   border-width: 0px;
+  -webkit-appearance: none;
 }
 
 .frontrunner--embed fieldset {
