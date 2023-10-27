@@ -36,6 +36,10 @@ html.w-editor .main-wrapper {
   padding-top: 12rem;
 }
 
+.frontrunner--embed .hs-error-msgs label {
+  font-weight: normal !important;
+}
+
 .frontrunner--embed ::marker {
   opacity: 0;
 }
