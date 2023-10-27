@@ -29,6 +29,11 @@ html.w-editor .main-wrapper {
   margin: 0px;
 }
 
+.frontrunner--embed .hs-error-msgs {
+  font-size: 12rem;
+  color: red;
+}
+
 #onetrust-consent-sdk {
   background-color: black;
   padding-right: 60em;
