@@ -24,7 +24,7 @@ html.w-editor .main-wrapper {
 .frontrunner--embed .hs-input {
   width: 100% !important;
   height: 48rem;
-  border-radius: 300rem;
+  border-radius: 4rem;
   border-width: 0;
   font-size: 16rem;
   padding-left: 24rem;
@@ -49,6 +49,7 @@ html.w-editor .main-wrapper {
   padding-left: 0px;
   padding-top: 12rem;
   padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .frontrunner--embed .hs-error-msgs label {
