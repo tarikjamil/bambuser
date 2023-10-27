@@ -34,6 +34,7 @@ html.w-editor .main-wrapper {
   color: red;
   padding-left: 0px;
   padding-top: 12rem;
+  padding-bottom: 0px;
 }
 
 .frontrunner--embed .hs-error-msgs label {
