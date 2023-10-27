@@ -25,6 +25,13 @@ html.w-editor .main-wrapper {
   color: black;
 }
 
+.frontrunner--embed .label {
+  font-size: 12rem;
+  color: white;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
 .frontrunner--embed .input {
   margin: 0px;
 }
@@ -39,18 +46,15 @@ html.w-editor .main-wrapper {
 
 .frontrunner--embed .hs-error-msgs label {
   font-weight: normal !important;
+  font-size: 12rem;
+  color: red;
+  padding-left: 0px;
+  padding-top: 12rem;
+  padding-bottom: 0px;
 }
 
 .frontrunner--embed ::marker {
   opacity: 0;
-}
-
-#onetrust-consent-sdk {
-  background-color: black;
-  padding-right: 60em;
-  padding-left: 60em;
-  padding-bottom: 0em;
-  height: 0em !important;
 }
 
 #ot-sdk-btn-floating.ot-floating-button {
