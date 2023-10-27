@@ -16,7 +16,9 @@ html.w-editor .main-wrapper {
 
 .frontrunner--embed form {
   display: flex;
-  row-gap: 24rem;
+  row-gap: 16rem;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .frontrunner--embed .hs-input {
