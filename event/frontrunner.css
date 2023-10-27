@@ -25,7 +25,7 @@ html.w-editor .main-wrapper {
   color: black;
 }
 
-.frontrunner--embed .label {
+.frontrunner--embed label {
   font-size: 12rem;
   color: white;
   padding-left: 0px;
