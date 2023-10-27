@@ -71,6 +71,17 @@ html.w-editor .main-wrapper {
   font-size: 12rem;
 }
 
+.frontrunner--embed .hs-button.primary.large {
+  font-size: 14rem;
+  background-color: #6b00de;
+  color: white;
+  border-radius: 4rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  padding-left: 24rem;
+  padding-right: 24rem;
+}
+
 #ot-sdk-btn-floating.ot-floating-button {
   position: relative !important;
   top: -70em;
