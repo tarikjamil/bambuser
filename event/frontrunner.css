@@ -14,6 +14,10 @@ html.w-editor .main-wrapper {
   opacity: 1;
 }
 
+.frontrunner--embed {
+  font-size: 16rem;
+}
+
 .frontrunner--embed form {
   display: flex;
   row-gap: 8rem;
@@ -80,6 +84,11 @@ html.w-editor .main-wrapper {
   padding-bottom: 12rem;
   padding-left: 24rem;
   padding-right: 24rem;
+  border-width: 0px;
+}
+
+.frontrunner--embed fieldset {
+  max-width: none;
 }
 
 #ot-sdk-btn-floating.ot-floating-button {
