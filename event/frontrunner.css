@@ -67,6 +67,10 @@ html.w-editor .main-wrapper {
   color: transparent;
 }
 
+.frontrunner--embed p {
+  font-size: 12rem;
+}
+
 #ot-sdk-btn-floating.ot-floating-button {
   position: relative !important;
   top: -70em;
