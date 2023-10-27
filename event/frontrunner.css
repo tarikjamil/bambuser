@@ -32,6 +32,12 @@ html.w-editor .main-wrapper {
 .frontrunner--embed .hs-error-msgs {
   font-size: 12rem;
   color: red;
+  padding-left: 0px;
+  padding-top: 12rem;
+}
+
+.frontrunner--embed ::marker {
+  opacity: 0;
 }
 
 #onetrust-consent-sdk {
