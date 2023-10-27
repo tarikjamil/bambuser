@@ -37,6 +37,7 @@ html.w-editor .main-wrapper {
   color: white;
   padding-left: 0px;
   padding-bottom: 0px;
+  font-weight: normal !important;
 }
 
 .frontrunner--embed .input {
