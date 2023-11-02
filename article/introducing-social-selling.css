@@ -1,4 +1,11 @@
 .article-richtext h2 {
   font-size: 28rem;
   margin-bottom: 16rem;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 991px) {
+  .article-richtext h2 {
+    font-size: 24rem;
+  }
 }
