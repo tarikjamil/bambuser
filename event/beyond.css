@@ -14,6 +14,10 @@ html.w-editor .main-wrapper {
   opacity: 1;
 }
 
+.frontrunner--embed form {
+  display: flex;
+}
+
 .frontrunner--embed label {
   font-size: 14rem;
 }
