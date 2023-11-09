@@ -31,6 +31,10 @@ html.w-editor .main-wrapper {
   width: 100%;
 }
 
+.frontrunner--embed .input {
+  margin-right: 0px;
+}
+
 #ot-sdk-btn-floating.ot-floating-button {
   position: relative !important;
   top: -70em;
