@@ -35,6 +35,9 @@ html.w-editor .main-wrapper {
   margin-right: 0px;
 }
 
+.frontrunner--embed fieldset {
+  max-width: none !important;
+}
 #ot-sdk-btn-floating.ot-floating-button {
   position: relative !important;
   top: -70em;
