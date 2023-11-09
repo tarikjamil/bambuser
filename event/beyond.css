@@ -24,6 +24,7 @@ html.w-editor .main-wrapper {
   font-style: normal;
   background-color: transparent;
   max-width: none;
+  width: 100%;
 }
 
 #ot-sdk-btn-floating.ot-floating-button {
