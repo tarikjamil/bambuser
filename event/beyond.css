@@ -23,6 +23,7 @@ html.w-editor .main-wrapper {
   font-size: 24rem;
   font-style: normal;
   background-color: transparent;
+  max-width: none;
 }
 
 #ot-sdk-btn-floating.ot-floating-button {
