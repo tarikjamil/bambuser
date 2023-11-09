@@ -75,6 +75,7 @@ pageLoad();
 $(".section-hero").each(function (index) {
   let triggerElement = $(this);
   let targetElement = $(".beyond--hero-video");
+  let targetElement2 = $(".beyond--supercut-video");
 
   let tl = gsap.timeline({
     scrollTrigger: {
@@ -87,6 +88,9 @@ $(".section-hero").each(function (index) {
   });
   tl.to(targetElement, {
     opacity: "0.8",
+  });
+  tl.to(targetElement2, {
+    opacity: "0.3",
   });
 });
 
