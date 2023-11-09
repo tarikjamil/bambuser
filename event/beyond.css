@@ -54,6 +54,7 @@ html.w-editor .main-wrapper {
   font-weight: 450;
   line-height: 82%; /* 19.68px */
   border-radius: 300rem;
+  border-width: 0px;
 }
 
 #ot-sdk-btn-floating.ot-floating-button {
