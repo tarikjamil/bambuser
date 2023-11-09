@@ -86,7 +86,7 @@ $(".section-hero").each(function (index) {
     },
   });
   tl.to(targetElement, {
-    opacity: "0.3",
+    opacity: "0.8",
   });
 });
 
