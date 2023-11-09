@@ -16,6 +16,8 @@ html.w-editor .main-wrapper {
 
 .frontrunner--embed form {
   display: flex;
+  flex-direction: column;
+  row-gap: 24rem;
 }
 
 .frontrunner--embed label {
