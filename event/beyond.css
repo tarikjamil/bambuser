@@ -14,17 +14,14 @@ html.w-editor .main-wrapper {
   opacity: 1;
 }
 
-.hs-input {
+.frontrunner--embed .hs-input {
   height: 64rem;
   padding: 0px 32rem;
   color: white;
   border-radius: 88rem;
   border: 1px solid rgba(255, 255, 255, 0.4);
   font-size: 24rem;
-}
-
-.frontrunner--embed fieldset {
-  max-width: none;
+  font-style: normal;
 }
 
 #ot-sdk-btn-floating.ot-floating-button {
