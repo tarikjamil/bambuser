@@ -46,7 +46,6 @@ html.w-editor .main-wrapper {
 }
 
 .frontrunner--embed .hs-button.primary.large {
-  height: 64rem;
   padding: 24rem;
   color: #000;
   text-align: center;
@@ -54,6 +53,7 @@ html.w-editor .main-wrapper {
   font-style: normal;
   font-weight: 450;
   line-height: 82%; /* 19.68px */
+  border-radius: 300rem;
 }
 
 #ot-sdk-btn-floating.ot-floating-button {
