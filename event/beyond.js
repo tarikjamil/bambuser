@@ -90,7 +90,7 @@ $(".section-hero").each(function (index) {
     opacity: "0.8",
   });
   tl.to(targetElement2, {
-    opacity: "0.3",
+    opacity: "0.2",
   });
 });
 
