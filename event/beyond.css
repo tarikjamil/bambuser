@@ -78,3 +78,11 @@ html.w-editor .main-wrapper {
     height: 0em !important;
   }
 }
+
+.body.is--barbara .video--bg-mask.is--barbara,
+.body.is--kristina .video--bg-mask.is--kristina,
+.body.is--louise .video--bg-mask.is--louise,
+.body.is--jason .video--bg-mask.is--jason,
+.body.is--google .video--bg-mask.is--google {
+  opacity: 1;
+}
