@@ -138,8 +138,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
     // result
     ScrollTrigger.create({
       trigger: triggerEl,
-      start: "bottom bottom",
-      end: "top top",
+      start: "bottom bottom -=100rem",
+      end: "top top +=100rem",
       onToggle: ({ self, isActive }) => {
         if (isActive) {
           targetEl.addClass(classSetting);
