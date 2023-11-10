@@ -64,6 +64,10 @@ html.w-editor .main-wrapper {
   border-width: 0px;
 }
 
+.frontrunner--embed .hs-form-field {
+  width: 100% !important;
+}
+
 #ot-sdk-btn-floating.ot-floating-button {
   position: relative !important;
   top: -70em;
