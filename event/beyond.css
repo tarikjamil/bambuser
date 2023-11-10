@@ -86,10 +86,11 @@ html.w-editor .main-wrapper {
   }
 
   .frontrunner--embed .form-columns-2 {
-    display: grid;
     grid-template-columns: 1fr;
-    column-gap: 24rem;
-    row-gap: 24rem;
+  }
+
+  .frontrunner--embed .hs-input {
+    font-size: 18rem;
   }
 }
 
