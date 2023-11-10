@@ -84,6 +84,13 @@ html.w-editor .main-wrapper {
     padding-bottom: 0em;
     height: 0em !important;
   }
+
+  .frontrunner--embed .form-columns-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 24rem;
+    row-gap: 24rem;
+  }
 }
 
 .body.is--barbara .video--bg-mask.is--barbara,
