@@ -92,6 +92,11 @@ html.w-editor .main-wrapper {
   .frontrunner--embed .hs-input {
     font-size: 18rem;
   }
+
+  .frontrunner--embed .hs-button.primary.large {
+    width: 100%;
+    font-size: 18rem;
+  }
 }
 
 .body.is--barbara .video--bg-mask.is--barbara,
