@@ -45,6 +45,10 @@ html.w-editor .main-wrapper {
   max-width: none !important;
 }
 
+.frontrunner--embed .form-columns-2 {
+  display: flex;
+}
+
 .frontrunner--embed .hs-button.primary.large {
   padding: 24rem 40rem;
   color: #000;
