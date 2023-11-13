@@ -63,6 +63,7 @@ html.w-editor .main-wrapper {
   border-radius: 300rem;
   border-width: 0px;
   -webkit-appearance: none;
+  background-color: white !important;
 }
 
 .frontrunner--embed .hs-form-field {
