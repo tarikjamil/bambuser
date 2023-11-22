@@ -133,7 +133,10 @@ document.addEventListener("DOMContentLoaded", function () {
     video.addEventListener("timeupdate", function () {
       const percentage = (video.currentTime / video.duration) * 100;
       progressFilled.style.width = percentage + "%";
-      currentTimeElem.textContent = formatTime(video.currentTime);
+      currentTimeElem.textContent = formatTime(
+        video.currentTime,
+        video.duration
+      );
     });
 
     progressContainer.addEventListener("click", function (e) {
@@ -145,13 +148,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     video.addEventListener("loadedmetadata", function () {
-      durationElem.textContent = formatTime(video.duration);
+      durationElem.textContent = formatTime(0, video.duration);
     });
   });
 
-  function formatTime(seconds) {
-    const mins = Math.floor(seconds / 60);
-    const secs = Math.floor(seconds % 60);
+  // Updated formatTime function for countdown timer
+  function formatTime(seconds, duration) {
+    const timeLeft = duration - seconds;
+    const mins = Math.floor(timeLeft / 60);
+    const secs = Math.floor(timeLeft % 60);
     return `${mins}:${secs < 10 ? "0" : ""}${secs}`;
   }
 });
