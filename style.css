@@ -5,6 +5,7 @@
 .overflow-hidden {
   overflow: hidden;
 }
+
 .splide__track {
   overflow: visible;
 }
@@ -13,6 +14,7 @@
   line-height: 1.1;
 }
 
+/* Combining media query rules for .overflow-hidden */
 .overflow-hidden:nth-child(n + 1) {
   margin-top: -30rem;
 }
@@ -23,18 +25,20 @@
   }
 
   .navbar--dropdown-list {
-    height: 0px;
+    height: 0;
   }
 }
 
+/* Simplified hover state for video player controls */
 .player--video-container:hover .player--video-controls {
   opacity: 1;
 }
 
+/* Consolidated styles for player--playPause */
 .player--playPause {
-  display: none; /* Hide the playPause button initially */
+  display: none; /* Hide by default */
 }
 
 .player--playPause.is-visible {
-  display: block; /* This class will make the playPause button visible */
+  display: block; /* Display when .is-visible class is added */
 }
