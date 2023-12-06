@@ -5,6 +5,9 @@
 .overflow-hidden {
   overflow: hidden;
 }
+.splide__track {
+  overflow: visible;
+}
 
 .loading-animation-split {
   line-height: 1.1;
