@@ -1,65 +1,84 @@
-/* General styles for home hero images with initial state */
-.body.home--hero [class^="home--hero--img-new"] {
+.body.home--hero .after--hero--bg-img {
+  opacity: 1;
+}
+
+.body.home--hero .home--hero--img-new-1 {
+  top: 80rem;
   opacity: 0;
 }
 
-/* Specific positioning for each hero image */
-.body.home--hero .home--hero--img-new-1 {
-  top: 80rem;
-}
 .body.home--hero .home--hero--img-new-2 {
   top: 180rem;
+  opacity: 0;
 }
+
 .body.home--hero .home--hero--img-new-3 {
   top: 274rem;
+  opacity: 0;
 }
+
 .body.home--hero .home--hero-img-new-4 {
   bottom: 184rem;
+  opacity: 0;
 }
-.body.home--hero .home--hero-img-new-5,
-.body.home--hero .home--hero-img-new-6,
-.body.home--hero .home--hero-img-new-7,
+
+.body.home--hero .home--hero-img-new-5 {
+  bottom: 25rem;
+  opacity: 1;
+}
+
+.body.home--hero .home--hero-img-new-6 {
+  bottom: 123rem;
+  opacity: 1;
+}
+
+.body.home--hero .home--hero-img-new-7 {
+  bottom: 209rem;
+  opacity: 1;
+}
+
 .body.home--hero .video_element.is--home-hero-new-2 {
   opacity: 1;
 }
-.body.home--hero .home--hero-img-new-5 {
-  bottom: 25rem;
-}
-.body.home--hero .home--hero-img-new-6 {
-  bottom: 123rem;
-}
-.body.home--hero .home--hero-img-new-7 {
-  bottom: 209rem;
+
+.body.slide-1 .is--video1 {
+  opacity: 1;
+  transform: translate(0px, 0rem);
 }
 
-/* Slide specific styles */
-.body[class*="slide-"] .is--video1,
-.body[class*="slide-"] .is--video2,
-.body[class*="slide-"] .is--video3 {
+.body.slide-1 .is--video2 {
+  opacity: 0;
+  transform: translate(0px, 40rem);
+}
+
+.body.slide-1 .is--video3 {
   opacity: 0;
 }
 
-/* Specific styles for each slide */
-.body.slide-1 .is--video1 {
-  opacity: 1;
-  transform: translate(0, 0);
-}
-.body.slide-1 .is--video2 {
-  transform: translate(0, 40rem);
+.body.slide-2 .is--video1 {
+  opacity: 0;
+  transform: translate(0px, -40rem);
 }
 
-.body.slide-2 .is--video1 {
-  transform: translate(0, -40rem);
-}
 .body.slide-2 .is--video2 {
   opacity: 1;
-  transform: translate(0, 0);
+  transform: translate(0px, 0rem);
+}
+
+.body.slide-2 .is--video3 {
+  opacity: 0;
+}
+
+.body.slide-3 .is--video1 {
+  opacity: 0;
 }
 
 .body.slide-3 .is--video2 {
-  transform: translate(0, -40rem);
+  opacity: 0;
+  transform: translate(0px, -40rem);
 }
+
 .body.slide-3 .is--video3 {
   opacity: 1;
-  transform: translate(0, 0);
+  transform: translate(0px, 0rem);
 }
