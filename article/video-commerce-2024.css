@@ -6,3 +6,14 @@
   background-image: none;
   padding: 0;
 }
+
+@media (max-width: 991px) {
+  .article-richtext blockquote {
+    font-size: 24rem;
+    margin-top: 32rem;
+    margin-bottom: 32rem;
+    max-width: 800rem;
+    background-image: none;
+    padding: 0;
+  }
+}
