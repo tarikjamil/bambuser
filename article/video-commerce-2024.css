@@ -2,4 +2,7 @@
   font-size: 36rem;
   margin-top: 80rem;
   margin-bottom: 80rem;
+  max-width: 800rem;
+  background-image: none;
+  padding: 0;
 }
