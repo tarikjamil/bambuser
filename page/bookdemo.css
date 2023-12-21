@@ -70,3 +70,15 @@
   font-family: Neue Haas Grotesk Display, Arial, sans-serif;
   line-height: 96%;
 }
+
+.heading--16 {
+  letter-spacing: -0.02em !important;
+  margin-bottom: 0 !important;
+  font-family: Neue Haas Grotesk text, Arial, sans-serif;
+  font-size: 16rem !important;
+  font-weight: 500 !important;
+  line-height: 1.1 !important;
+}
+.is--20margin-bottom {
+  margin-bottom: 20rem !important;
+}
