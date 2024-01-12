@@ -3,4 +3,5 @@ blockquote {
   background-image: none !important;
   padding-bottom: 80rem !important;
   padding-top: 80rem !important;
+  line-height: 1.2 !important;
 }
