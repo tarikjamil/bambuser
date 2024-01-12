@@ -1,4 +1,6 @@
 blockquote {
-  font-size: 40rem;
-  background-image: none;
+  font-size: 40rem !important;
+  background-image: none !important;
+  padding-bottom: 80rem !important;
+  padding-top: 80rem !important;
 }
