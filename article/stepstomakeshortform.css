@@ -5,3 +5,11 @@ blockquote {
   padding-top: 80rem !important;
   line-height: 1.2 !important;
 }
+
+@media screen and (max-width: 767px) {
+  blockquote {
+    font-size: 28rem !important;
+    padding-bottom: 40rem !important;
+    padding-top: 40rem !important;
+  }
+}
