@@ -47,14 +47,14 @@
 
 #one-to-one-initiation.avatar-fade-in,
 #one-to-one-initiation.video-fade-in {
-  left: 40rem !important;
+  right: 40rem !important;
   bottom: 40rem !important;
 }
 
 @media screen and (max-width: 991px) {
   #one-to-one-initiation.avatar-fade-in,
   #one-to-one-initiation.video-fade-in {
-    left: 20rem !important;
+    right: 20rem !important;
     bottom: 20rem !important;
   }
 }
