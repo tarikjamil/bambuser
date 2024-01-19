@@ -160,3 +160,18 @@ document.addEventListener("DOMContentLoaded", function () {
     return `${mins}:${secs < 10 ? "0" : ""}${secs}`;
   }
 });
+
+// ------- marquee scrolling --- //
+
+// marquee is--scrolling
+const scrollSpeed = 50; // pixels per second, adjust as needed
+
+function updateScrollingSpeed() {
+  document.querySelectorAll(".is--marquee-scrolling").forEach((element) => {
+    const scrollWidth = element.offsetWidth;
+    const duration = scrollWidth / scrollSpeed; // seconds
+
+    element.style.setProperty("--scroll-width", `${scrollWidth}px`);
+    element.style.animationDuration = `${duration}s`;
+  });
+}
