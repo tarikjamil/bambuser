@@ -1,5 +1,11 @@
 .accordion--trigger.open .icon--12 {
-  transform: rotate(180deg);
+  transform: rotate(45deg);
+}
+
+.accordion--trigger.icon--12 {
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
 }
 
 .accordion--response {
