@@ -62,12 +62,12 @@
 .is--marquee-scrolling {
   white-space: nowrap;
   will-change: transform;
-  animation-name: is--marquee-scrolling;
+  animation-name: is--marqueescrolling;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
-@keyframes is--marquee-scrolling {
+@keyframes is--marqueescrolling {
   from {
     transform: translateX(0);
   }
