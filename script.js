@@ -161,9 +161,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// ------- marquee scrolling --- //
+// ------- marquee scrolling ---------------------------- //
 
-// marquee is--scrolling
+// marquee is--marquee-scrolling
 const scrollSpeed = 50; // pixels per second, adjust as needed
 
 function updateScrollingSpeed() {
