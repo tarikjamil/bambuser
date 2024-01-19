@@ -175,3 +175,6 @@ function updateScrollingSpeed() {
     element.style.animationDuration = `${duration}s`;
   });
 }
+
+document.addEventListener("DOMContentLoaded", updateScrollingSpeed);
+window.addEventListener("resize", updateScrollingSpeed);
