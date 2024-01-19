@@ -1,0 +1,7 @@
+.accordion--trigger.open .icon--12 {
+  transform: rotate(180deg);
+}
+
+.accordion--response {
+  height: 0px;
+}
