@@ -180,7 +180,6 @@ document.addEventListener("DOMContentLoaded", updateScrollingSpeed);
 window.addEventListener("resize", updateScrollingSpeed);
 
 //-----------------  video player ----------------------------//
-// video player
 document.addEventListener("DOMContentLoaded", function () {
   const videoContainers = document.querySelectorAll(".player--video-container");
 
