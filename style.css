@@ -35,12 +35,12 @@
 }
 
 /* Consolidated styles for player--playPause */
-.player--playPause {
-  display: none; /* Hide by default */
+.player--playpause {
+  display: none; /* Hide the playPause button initially */
 }
 
-.player--playPause.is-visible {
-  display: block; /* Display when .is-visible class is added */
+.player--playpause.is-visible {
+  display: block; /* This class will make the playPause button visible */
 }
 
 /* widget */
