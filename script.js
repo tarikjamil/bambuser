@@ -178,7 +178,6 @@ function updateScrollingSpeed() {
 
 document.addEventListener("DOMContentLoaded", updateScrollingSpeed);
 window.addEventListener("resize", updateScrollingSpeed);
-
 //-----------------  video player ----------------------------//
 // video player
 document.addEventListener("DOMContentLoaded", function () {
