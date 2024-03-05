@@ -1,0 +1,115 @@
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+html.lenis {
+  height: auto;
+}
+
+.main-wrapper {
+  opacity: 0;
+}
+
+html.w-editor .main-wrapper {
+  opacity: 1;
+}
+
+.frontrunner--embed {
+  font-size: 16rem;
+}
+
+.frontrunner--embed form {
+  display: flex;
+  row-gap: 8rem;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.frontrunner--embed .hs-input {
+  width: 100% !important;
+  height: 48rem;
+  border-radius: 4rem;
+  border-width: 0;
+  font-size: 16rem;
+  padding-left: 24rem;
+  padding-right: 24rem;
+  color: black;
+}
+
+.frontrunner--embed label {
+  font-size: 12rem;
+  color: white;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  font-weight: normal !important;
+}
+
+.frontrunner--embed .input {
+  margin: 0px;
+}
+
+.frontrunner--embed .hs-error-msgs {
+  font-size: 12rem;
+  color: red;
+  padding-left: 0px;
+  padding-top: 12rem;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.frontrunner--embed .hs-error-msgs label {
+  font-weight: normal !important;
+  font-size: 12rem;
+  color: red;
+  padding-left: 0px;
+  padding-top: 0rem;
+  padding-bottom: 0px;
+}
+
+.frontrunner--embed ::marker {
+  opacity: 0;
+  color: transparent;
+}
+
+.frontrunner--embed p {
+  font-size: 12rem;
+}
+
+.frontrunner--embed .hs-button.primary.large {
+  font-size: 14rem;
+  background-color: #6b00de;
+  color: white;
+  border-radius: 4rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  padding-left: 24rem;
+  padding-right: 24rem;
+  border-width: 0px;
+  -webkit-appearance: none;
+}
+
+.frontrunner--embed fieldset {
+  max-width: none;
+}
+
+#ot-sdk-btn-floating.ot-floating-button {
+  position: relative !important;
+  top: -70em;
+  left: 0em !important;
+  background-color: transparent !important;
+  display: none !important;
+}
+
+#ot-sdk-btn-floating .ot-floating-button__front {
+  background-color: transparent !important;
+}
+
+@media screen and (max-width: 991px) {
+  #onetrust-consent-sdk {
+    background-color: black;
+    padding-right: 24rem;
+    padding-left: 24rem;
+    padding-bottom: 0em;
+    height: 0em !important;
+  }
+}

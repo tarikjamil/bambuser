@@ -1,0 +1,114 @@
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+html.lenis {
+  height: auto;
+}
+
+.main-wrapper {
+  opacity: 0;
+}
+
+html.w-editor .main-wrapper {
+  opacity: 1;
+}
+
+.frontrunner--embed form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24rem;
+}
+
+.frontrunner--embed label {
+  font-size: 14rem;
+}
+
+.frontrunner--embed .hs-input {
+  height: 64rem;
+  padding: 0px 32rem;
+  color: white;
+  border-radius: 88rem;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-size: 24rem;
+  font-style: normal;
+  background-color: transparent;
+  max-width: none;
+  width: 100% !important;
+}
+
+.frontrunner--embed .input {
+  margin-right: 0px;
+}
+
+.frontrunner--embed fieldset {
+  max-width: none !important;
+}
+
+.frontrunner--embed .form-columns-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24rem;
+  row-gap: 24rem;
+}
+
+.frontrunner--embed .hs-button.primary.large {
+  padding: 24rem 40rem;
+  color: #000;
+  text-align: center;
+  font-size: 24rem;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 82%; /* 19.68px */
+  border-radius: 300rem;
+  border-width: 0px;
+  -webkit-appearance: none;
+  background-color: white !important;
+}
+
+.frontrunner--embed .hs-form-field {
+  width: 100% !important;
+}
+
+#ot-sdk-btn-floating.ot-floating-button {
+  position: relative !important;
+  top: -70em;
+  left: 0em !important;
+  background-color: transparent !important;
+  display: none !important;
+}
+
+#ot-sdk-btn-floating .ot-floating-button__front {
+  background-color: transparent !important;
+}
+
+@media screen and (max-width: 991px) {
+  #onetrust-consent-sdk {
+    background-color: black;
+    padding-right: 24rem;
+    padding-left: 24rem;
+    padding-bottom: 0em;
+    height: 0em !important;
+  }
+
+  .frontrunner--embed .form-columns-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .frontrunner--embed .hs-input {
+    font-size: 18rem;
+  }
+
+  .frontrunner--embed .hs-button.primary.large {
+    width: 100%;
+    font-size: 18rem;
+  }
+}
+
+.body.is--barbara .video--bg-mask.is--barbara,
+.body.is--kristina .video--bg-mask.is--kristina,
+.body.is--louise .video--bg-mask.is--louise,
+.body.is--jason .video--bg-mask.is--jason,
+.body.is--google .video--bg-mask.is--google {
+  opacity: 1;
+}
