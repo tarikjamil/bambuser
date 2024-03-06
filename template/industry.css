@@ -1,10 +1,1 @@
-.overflow-hidden:nth-child(n + 1) {
-    margin-top: -5rem !important;
-  }
-  
-  .w-richtext-align-normal.w-richtext-figure-type-image {
-    margin-bottom: 24rem !important;
-    max-width: 100rem !important;
-    max-height: 70rem !important;
-  }
-  
+.overflow-hidden:nth-child(n+1){margin-top:-5rem!important}.w-richtext-align-normal.w-richtext-figure-type-image{margin-bottom:24rem!important;max-width:100rem!important;max-height:70rem!important}

@@ -1,15 +1,1 @@
-blockquote {
-  font-size: 40rem !important;
-  background-image: none !important;
-  padding-bottom: 80rem !important;
-  padding-top: 80rem !important;
-  line-height: 1.2 !important;
-}
-
-@media screen and (max-width: 767px) {
-  blockquote {
-    font-size: 28rem !important;
-    padding-bottom: 40rem !important;
-    padding-top: 40rem !important;
-  }
-}
+blockquote{font-size:40rem!important;background-image:none!important;padding-bottom:80rem!important;padding-top:80rem!important;line-height:1.2!important}@media screen and (max-width:767px){blockquote{font-size:28rem!important;padding-bottom:40rem!important;padding-top:40rem!important}}

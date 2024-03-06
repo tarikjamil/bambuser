@@ -1,13 +1,1 @@
-.accordion--trigger.open .icon--12 {
-  transform: rotate(45deg);
-}
-
-.accordion--trigger .icon--12 {
-  transition-property: all;
-  transition-duration: 500ms;
-  transition-timing-function: ease;
-}
-
-.accordion--response {
-  height: 0px;
-}
+.accordion--trigger.open .icon--12{transform:rotate(45deg)}.accordion--trigger .icon--12{transition-property:all;transition-duration:.5s;transition-timing-function:ease}.accordion--response{height:0}
