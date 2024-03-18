@@ -14,21 +14,6 @@
   line-height: 1.1;
 }
 
-/* Combining media query rules for .overflow-hidden */
-.overflow-hidden:nth-child(n + 1) {
-  margin-top: -30rem;
-}
-
-@media (max-width: 991px) {
-  .overflow-hidden:nth-child(n + 1) {
-    margin-top: -10rem;
-  }
-
-  .navbar--dropdown-list {
-    height: 0;
-  }
-}
-
 /* Simplified hover state for video player controls */
 .player--video-container:hover .player--video-controls {
   opacity: 1;
@@ -59,19 +44,10 @@
   }
 }
 
-.is--marquee-scrolling {
-  white-space: nowrap;
-  will-change: transform;
-  animation-name: is--marqueescrolling;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+.forecast--menu-link .forecast--play-icon {
+  opacity:0;
 }
 
-@keyframes is--marqueescrolling {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(calc(-1 * var(--scroll-width)));
-  }
+.forecast--menu-link:hover .forecast--play-icon {
+  opacity:1;
 }
