@@ -10,7 +10,6 @@ function pageLoad() {
   });
   tl.from(".forecast--circle", {
     x: "-100%",
-    opacity: "0",
     stagger: { each: 0.05, from: "start" },
     ease: "Quint.easeOut",
     duration: 1,
