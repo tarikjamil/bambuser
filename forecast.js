@@ -73,7 +73,7 @@ function pageLoad() {
     stagger: { each: 0.1, from: "start" },
     ease: "Quint.easeOut",
     duration: 1,
-    delay: -1,
+    delay: -0.5,
   });
 }
 pageLoad();
