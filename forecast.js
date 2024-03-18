@@ -63,7 +63,7 @@ function pageLoad() {
   tl.from(".forecast--circle", {
     x: "-100%",
     opacity: "0",
-    stagger: { each: 0.1, from: "start" },
+    stagger: { each: 0.05, from: "start" },
     ease: "Quint.easeOut",
     duration: 1,
   });
@@ -73,6 +73,7 @@ function pageLoad() {
     stagger: { each: 0.1, from: "start" },
     ease: "Quint.easeOut",
     duration: 1,
+    delay: -1,
   });
 }
 pageLoad();
