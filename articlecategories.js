@@ -15,7 +15,7 @@ const swiper = new Swiper(".is--categories-slider", {
     // When window width is >= 992px
     992: {
       slidesPerView: 1,
-      spaceBetween: "24rem",
+      spaceBetween: "16rem",
     },
   },
   // Navigation arrows
