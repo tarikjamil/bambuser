@@ -16,6 +16,7 @@ const swiper = new Swiper(".is--categories-slider", {
     992: {
       slidesPerView: 1,
       spaceBetween: "16rem",
+      allowTouchMove: false,
     },
   },
   // Navigation arrows
