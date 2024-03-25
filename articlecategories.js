@@ -2,7 +2,7 @@ const swiper = new Swiper(".is--categories-slider", {
   direction: "horizontal",
   slidesPerView: 1, // Default to 1 slide per view for mobile and smaller viewports
   slidesPerGroup: 1,
-  spaceBetween: "24rem",
+  spaceBetween: "16rem",
   loop: false,
   centeredSlides: false,
   // If we need pagination
