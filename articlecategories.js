@@ -14,7 +14,7 @@ const swiper = new Swiper(".is--categories-slider", {
   breakpoints: {
     // When window width is >= 992px
     992: {
-      slidesPerView: 4,
+      slidesPerView: 1,
       spaceBetween: "24rem",
     },
   },
