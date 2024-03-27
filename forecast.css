@@ -46,9 +46,13 @@
 }
 
 .forecast--menu-link .forecast--play-icon {
-  opacity:0;
+  opacity: 0;
 }
 
 .forecast--menu-link:hover .forecast--play-icon {
-  opacity:1;
+  opacity: 1;
+}
+
+.is--forecastshow-more.open .forecast--show-btn-text-wrapper {
+  transform: translate(0px, -1.5em);
 }
