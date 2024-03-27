@@ -54,5 +54,5 @@
 }
 
 .is--forecastshow-more.open .forecast--show-btn-text-wrapper {
-  transform: translate(0px, -1.5em);
+  transform: translate(0px, -1em);
 }
