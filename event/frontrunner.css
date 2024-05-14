@@ -77,14 +77,15 @@ html.w-editor .main-wrapper {
 
 .frontrunner--embed .hs-button.primary.large {
   font-size: 14rem;
-  background-color: #6b00de;
+  background-color: transparent;
   color: white;
-  border-radius: 4rem;
+  border-radius: 300rem;
   padding-top: 12rem;
   padding-bottom: 12rem;
   padding-left: 24rem;
   padding-right: 24rem;
-  border-width: 0px;
+  border-width: 1px;
+  border-color: white;
   -webkit-appearance: none;
 }
 
