@@ -99,6 +99,16 @@ html.w-editor .main-wrapper {
   column-gap: 8rem;
 }
 
+.inputs-list.multi-container {
+  padding-left: 0rem;
+  margin-bottom: 16rem;
+  padding-top: 8rem;
+}
+
+.inputs-list.multi-container .frontrunner--embed ::marker {
+  display: none;
+}
+
 .frontrunner--embed fieldset {
   max-width: none;
 }
