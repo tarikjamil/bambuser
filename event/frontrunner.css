@@ -103,6 +103,8 @@ html.w-editor .main-wrapper {
   padding-left: 0rem;
   margin-bottom: 16rem;
   padding-top: 8rem;
+  display: flex;
+  gap: 16rem;
 }
 
 .inputs-list.multi-container .frontrunner--embed ::marker {
