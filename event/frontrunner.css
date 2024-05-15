@@ -90,12 +90,13 @@ html.w-editor .main-wrapper {
 }
 
 .hs-input[type="checkbox"] {
-  width: 24rem;
-  height: 24rem;
+  width: 16em !important;
+  height: 16rem !important;
 }
 
 .hs-form-checkbox-display {
   display: flex;
+  column-gap: 8rem;
 }
 
 .frontrunner--embed fieldset {
